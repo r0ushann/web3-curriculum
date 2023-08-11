@@ -1,0 +1,372 @@
+[01;32mroot[00m [01;34m/workspace/web3-curriculum[00m (main) $ cd . && NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/toolling/server.js
+🔵 INFO:  2023-08-11 16:05:02 Listening on port 8080
+🔵 INFO:  2023-08-11 16:05:13 Watching for file changes on /workspace/web3-curriculum
+🔵 INFO:  2023-08-11 16:05:20 Watching for file changes on /workspace/web3-curriculum
+🔴 ERROR:  2023-08-11 16:16:52 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async Object.handleRunTests [as run-tests] (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js:48:3)
+🔴 ERROR:  2023-08-11 16:24:22 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:24:22 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:24:22 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:24:22 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:25:04 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:25:04 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:25:04 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:25:04 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:25:31 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:25:31 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:25:31 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:25:31 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:25:41 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:25:41 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:25:41 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:25:41 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:25:45 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:25:45 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:26:27 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:26:27 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:26:32 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:26:32 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:26:32 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:26:32 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:26:34 Test #4: Error: ENOENT: no such file or directory, open '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+    at Object.openSync (node:fs:603:3)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.getJsonFile (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test-utils.js:164:25)
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:2:38)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 3)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async Object.handleRunTests [as run-tests] (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js:48:3) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/workspace/web3-curriculum/learn-digital-ledgers-by-building-a-blockchain/blockchain.json'
+}
+🔴 ERROR:  2023-08-11 16:26:34 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async Object.handleRunTests [as run-tests] (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js:48:3)
+🔴 ERROR:  2023-08-11 16:26:39 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:26:39 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:27:18 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:27:18 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:27:23 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:27:23 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:27:33 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:27:33 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:33:14 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async Object.handleRunTests [as run-tests] (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js:48:3)
+🔴 ERROR:  2023-08-11 16:37:47 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async Object.handleRunTests [as run-tests] (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js:48:3)
+🔴 ERROR:  2023-08-11 16:39:13 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:39:13 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:40:08 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:40:08 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:40:17 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:40:18 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:40:19 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:40:19 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async FSWatcher.<anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/hot-reload.js:51:9)
+🔴 ERROR:  2023-08-11 16:40:35 Test #1: TypeError: Cannot read properties of undefined (reading 'replace')
+    at eval (eval at <anonymous> (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:35), <anonymous>:3:26)
+    at async file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:94:29
+    at async Promise.allSettled (index 0)
+    at async runTests (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/test.js:122:22)
+    at async Object.handleRunTests [as run-tests] (file:///workspace/web3-curriculum/node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js:48:3)
